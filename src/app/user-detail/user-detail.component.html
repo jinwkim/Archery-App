@@ -1,14 +1,14 @@
 <div>
-	<h2>Welcome, {{user.FirstName}} {{user.LastName}}!</h2>
-	<span>
-		<label> First Name:
-			<input [(ngModel)]="user.FirstName" placeholder="">
-		</label>
-		<label> Last Name:
-			<input [(ngModel)]="user.LastName" placeholder="">
-		</label>
-	</span>
-	<br>
+	<h2>Welcome {{user.FirstName}} {{user.LastName}}!</h2>
+	<label> First Name:
+		<input [(ngModel)]="user.FirstName" placeholder="">
+	</label>
+	<label> Last Name:
+		<input [(ngModel)]="user.LastName" placeholder="">
+	</label>
+</div>
+<br>
+<div>
 	<h3> Your stats: </h3>
 	<p> TABLE GOES HERE </p>
 </div>
